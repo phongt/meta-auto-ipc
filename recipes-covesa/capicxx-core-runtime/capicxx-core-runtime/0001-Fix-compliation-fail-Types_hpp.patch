@@ -1,0 +1,25 @@
+From 709bd7526bb66b30fe2e872cb86fd9c3f8b5f5b7 Mon Sep 17 00:00:00 2001
+From: Phong Tran <tranmanphong@gmail.com>
+Date: Sun, 12 May 2024 09:47:29 +0200
+Subject: [PATCH] Fix compliation fail Types_hpp
+
+Signed-off-by: Phong Tran <tranmanphong@gmail.com>
+---
+ include/CommonAPI/Types.hpp | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/include/CommonAPI/Types.hpp b/include/CommonAPI/Types.hpp
+index a1dd83c..dcae7be 100644
+--- a/include/CommonAPI/Types.hpp
++++ b/include/CommonAPI/Types.hpp
+@@ -15,6 +15,7 @@
+ #include <unordered_set>
+ #include <memory>
+ #include <tuple>
++#include <string>
+ 
+ #ifndef _WIN32
+ #include <sys/types.h>
+-- 
+2.39.2
+
